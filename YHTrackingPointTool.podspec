@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/wanwandiligent/YHTrackingPointTool"
   s.license      = "MIT"
   s.author       = { "wanyehua" => "137177787@qq.com" }
-  s.source       = { :git => "https://github.com/wanwandiligent/YHTrackingPointTool.git", :tag => "#{s.version}" }
-  s.source_files  = "YHTrackingPointTool", "YHTrackingPointTool/**/*.{h,m}"
+  s.source       = { :git => "https://github.com/wanwandiligent/YHTrackingPointTool.git", :tag => {s.version} }
+  s.source_files  = "YHTrackingPointTool/**/*.{h,m}"
 
 end
