@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6563978324B5ACDD00D2A915 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6563978224B5ACDD00D2A915 /* AppDelegate.m */; };
+		6563978624B5ACDD00D2A915 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6563978524B5ACDD00D2A915 /* SceneDelegate.m */; };
+		6563978924B5ACDD00D2A915 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6563978824B5ACDD00D2A915 /* ViewController.m */; };
+		6563978C24B5ACDD00D2A915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6563978A24B5ACDD00D2A915 /* Main.storyboard */; };
+		6563978F24B5ACDD00D2A915 /* YHTrackingPointTool_Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6563978D24B5ACDD00D2A915 /* YHTrackingPointTool_Example.xcdatamodeld */; };
+		6563979424B5ACDE00D2A915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6563979224B5ACDE00D2A915 /* LaunchScreen.storyboard */; };
+		6563979724B5ACDE00D2A915 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6563979624B5ACDE00D2A915 /* main.m */; };
+		656397A124B5ACDE00D2A915 /* YHTrackingPointTool_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 656397A024B5ACDE00D2A915 /* YHTrackingPointTool_ExampleTests.m */; };
+		656397AC24B5ACDE00D2A915 /* YHTrackingPointTool_ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 656397AB24B5ACDE00D2A915 /* YHTrackingPointTool_ExampleUITests.m */; };
+		656397BD24B5AD5200D2A915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656397BC24B5AD5200D2A915 /* Assets.xcassets */; };
+		656397C024B5ADB800D2A915 /* YHCellDisPlayHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 656397BF24B5ADB800D2A915 /* YHCellDisPlayHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6563979D24B5ACDE00D2A915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6563977624B5ACDD00D2A915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6563977D24B5ACDD00D2A915;
+			remoteInfo = "YHTrackingPointTool-Example";
+		};
+		656397A824B5ACDE00D2A915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6563977624B5ACDD00D2A915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6563977D24B5ACDD00D2A915;
+			remoteInfo = "YHTrackingPointTool-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6563977E24B5ACDD00D2A915 /* YHTrackingPointTool-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YHTrackingPointTool-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6563978124B5ACDD00D2A915 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6563978224B5ACDD00D2A915 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6563978424B5ACDD00D2A915 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6563978524B5ACDD00D2A915 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		6563978724B5ACDD00D2A915 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6563978824B5ACDD00D2A915 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6563978B24B5ACDD00D2A915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6563978E24B5ACDD00D2A915 /* YHTrackingPointTool_Example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YHTrackingPointTool_Example.xcdatamodel; sourceTree = "<group>"; };
+		6563979324B5ACDE00D2A915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6563979524B5ACDE00D2A915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6563979624B5ACDE00D2A915 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6563979C24B5ACDE00D2A915 /* YHTrackingPointTool-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YHTrackingPointTool-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		656397A024B5ACDE00D2A915 /* YHTrackingPointTool_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHTrackingPointTool_ExampleTests.m; sourceTree = "<group>"; };
+		656397A224B5ACDE00D2A915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656397A724B5ACDE00D2A915 /* YHTrackingPointTool-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YHTrackingPointTool-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		656397AB24B5ACDE00D2A915 /* YHTrackingPointTool_ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHTrackingPointTool_ExampleUITests.m; sourceTree = "<group>"; };
+		656397AD24B5ACDE00D2A915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656397BC24B5AD5200D2A915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		656397BE24B5ADB800D2A915 /* YHCellDisPlayHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHCellDisPlayHandler.h; sourceTree = "<group>"; };
+		656397BF24B5ADB800D2A915 /* YHCellDisPlayHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHCellDisPlayHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6563977B24B5ACDD00D2A915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6563979924B5ACDE00D2A915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656397A424B5ACDE00D2A915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6563977524B5ACDD00D2A915 = {
+			isa = PBXGroup;
+			children = (
+				656397B924B5AD5200D2A915 /* YHTrackingPointTool */,
+				6563978024B5ACDD00D2A915 /* YHTrackingPointTool-Example */,
+				6563979F24B5ACDE00D2A915 /* YHTrackingPointTool-ExampleTests */,
+				656397AA24B5ACDE00D2A915 /* YHTrackingPointTool-ExampleUITests */,
+				6563977F24B5ACDD00D2A915 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6563977F24B5ACDD00D2A915 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6563977E24B5ACDD00D2A915 /* YHTrackingPointTool-Example.app */,
+				6563979C24B5ACDE00D2A915 /* YHTrackingPointTool-ExampleTests.xctest */,
+				656397A724B5ACDE00D2A915 /* YHTrackingPointTool-ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6563978024B5ACDD00D2A915 /* YHTrackingPointTool-Example */ = {
+			isa = PBXGroup;
+			children = (
+				6563978124B5ACDD00D2A915 /* AppDelegate.h */,
+				6563978224B5ACDD00D2A915 /* AppDelegate.m */,
+				6563978424B5ACDD00D2A915 /* SceneDelegate.h */,
+				6563978524B5ACDD00D2A915 /* SceneDelegate.m */,
+				6563978724B5ACDD00D2A915 /* ViewController.h */,
+				6563978824B5ACDD00D2A915 /* ViewController.m */,
+				6563978A24B5ACDD00D2A915 /* Main.storyboard */,
+				6563979224B5ACDE00D2A915 /* LaunchScreen.storyboard */,
+				6563979524B5ACDE00D2A915 /* Info.plist */,
+				6563979624B5ACDE00D2A915 /* main.m */,
+				6563978D24B5ACDD00D2A915 /* YHTrackingPointTool_Example.xcdatamodeld */,
+			);
+			path = "YHTrackingPointTool-Example";
+			sourceTree = "<group>";
+		};
+		6563979F24B5ACDE00D2A915 /* YHTrackingPointTool-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				656397A024B5ACDE00D2A915 /* YHTrackingPointTool_ExampleTests.m */,
+				656397A224B5ACDE00D2A915 /* Info.plist */,
+			);
+			path = "YHTrackingPointTool-ExampleTests";
+			sourceTree = "<group>";
+		};
+		656397AA24B5ACDE00D2A915 /* YHTrackingPointTool-ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				656397AB24B5ACDE00D2A915 /* YHTrackingPointTool_ExampleUITests.m */,
+				656397AD24B5ACDE00D2A915 /* Info.plist */,
+			);
+			path = "YHTrackingPointTool-ExampleUITests";
+			sourceTree = "<group>";
+		};
+		656397B924B5AD5200D2A915 /* YHTrackingPointTool */ = {
+			isa = PBXGroup;
+			children = (
+				656397BA24B5AD5200D2A915 /* Classes */,
+				656397BB24B5AD5200D2A915 /* Assets */,
+			);
+			name = YHTrackingPointTool;
+			path = ../YHTrackingPointTool;
+			sourceTree = "<group>";
+		};
+		656397BA24B5AD5200D2A915 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				656397BE24B5ADB800D2A915 /* YHCellDisPlayHandler.h */,
+				656397BF24B5ADB800D2A915 /* YHCellDisPlayHandler.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		656397BB24B5AD5200D2A915 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				656397BC24B5AD5200D2A915 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6563977D24B5ACDD00D2A915 /* YHTrackingPointTool-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656397B024B5ACDE00D2A915 /* Build configuration list for PBXNativeTarget "YHTrackingPointTool-Example" */;
+			buildPhases = (
+				6563977A24B5ACDD00D2A915 /* Sources */,
+				6563977B24B5ACDD00D2A915 /* Frameworks */,
+				6563977C24B5ACDD00D2A915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YHTrackingPointTool-Example";
+			productName = "YHTrackingPointTool-Example";
+			productReference = 6563977E24B5ACDD00D2A915 /* YHTrackingPointTool-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6563979B24B5ACDE00D2A915 /* YHTrackingPointTool-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656397B324B5ACDE00D2A915 /* Build configuration list for PBXNativeTarget "YHTrackingPointTool-ExampleTests" */;
+			buildPhases = (
+				6563979824B5ACDE00D2A915 /* Sources */,
+				6563979924B5ACDE00D2A915 /* Frameworks */,
+				6563979A24B5ACDE00D2A915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6563979E24B5ACDE00D2A915 /* PBXTargetDependency */,
+			);
+			name = "YHTrackingPointTool-ExampleTests";
+			productName = "YHTrackingPointTool-ExampleTests";
+			productReference = 6563979C24B5ACDE00D2A915 /* YHTrackingPointTool-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		656397A624B5ACDE00D2A915 /* YHTrackingPointTool-ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 656397B624B5ACDE00D2A915 /* Build configuration list for PBXNativeTarget "YHTrackingPointTool-ExampleUITests" */;
+			buildPhases = (
+				656397A324B5ACDE00D2A915 /* Sources */,
+				656397A424B5ACDE00D2A915 /* Frameworks */,
+				656397A524B5ACDE00D2A915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				656397A924B5ACDE00D2A915 /* PBXTargetDependency */,
+			);
+			name = "YHTrackingPointTool-ExampleUITests";
+			productName = "YHTrackingPointTool-ExampleUITests";
+			productReference = 656397A724B5ACDE00D2A915 /* YHTrackingPointTool-ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6563977624B5ACDD00D2A915 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = wanwan;
+				TargetAttributes = {
+					6563977D24B5ACDD00D2A915 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					6563979B24B5ACDE00D2A915 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6563977D24B5ACDD00D2A915;
+					};
+					656397A624B5ACDE00D2A915 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 6563977D24B5ACDD00D2A915;
+					};
+				};
+			};
+			buildConfigurationList = 6563977924B5ACDD00D2A915 /* Build configuration list for PBXProject "YHTrackingPointTool-Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6563977524B5ACDD00D2A915;
+			productRefGroup = 6563977F24B5ACDD00D2A915 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6563977D24B5ACDD00D2A915 /* YHTrackingPointTool-Example */,
+				6563979B24B5ACDE00D2A915 /* YHTrackingPointTool-ExampleTests */,
+				656397A624B5ACDE00D2A915 /* YHTrackingPointTool-ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6563977C24B5ACDD00D2A915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6563979424B5ACDE00D2A915 /* LaunchScreen.storyboard in Resources */,
+				656397BD24B5AD5200D2A915 /* Assets.xcassets in Resources */,
+				6563978C24B5ACDD00D2A915 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6563979A24B5ACDE00D2A915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656397A524B5ACDE00D2A915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6563977A24B5ACDD00D2A915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6563979724B5ACDE00D2A915 /* main.m in Sources */,
+				6563978924B5ACDD00D2A915 /* ViewController.m in Sources */,
+				656397C024B5ADB800D2A915 /* YHCellDisPlayHandler.m in Sources */,
+				6563978324B5ACDD00D2A915 /* AppDelegate.m in Sources */,
+				6563978624B5ACDD00D2A915 /* SceneDelegate.m in Sources */,
+				6563978F24B5ACDD00D2A915 /* YHTrackingPointTool_Example.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6563979824B5ACDE00D2A915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656397A124B5ACDE00D2A915 /* YHTrackingPointTool_ExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656397A324B5ACDE00D2A915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				656397AC24B5ACDE00D2A915 /* YHTrackingPointTool_ExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6563979E24B5ACDE00D2A915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6563977D24B5ACDD00D2A915 /* YHTrackingPointTool-Example */;
+			targetProxy = 6563979D24B5ACDE00D2A915 /* PBXContainerItemProxy */;
+		};
+		656397A924B5ACDE00D2A915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6563977D24B5ACDD00D2A915 /* YHTrackingPointTool-Example */;
+			targetProxy = 656397A824B5ACDE00D2A915 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6563978A24B5ACDD00D2A915 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6563978B24B5ACDD00D2A915 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6563979224B5ACDE00D2A915 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6563979324B5ACDE00D2A915 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		656397AE24B5ACDE00D2A915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		656397AF24B5ACDE00D2A915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		656397B124B5ACDE00D2A915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98QB63E64X;
+				INFOPLIST_FILE = "YHTrackingPointTool-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wanwan.YHTrackingPointTool-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		656397B224B5ACDE00D2A915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98QB63E64X;
+				INFOPLIST_FILE = "YHTrackingPointTool-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wanwan.YHTrackingPointTool-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		656397B424B5ACDE00D2A915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98QB63E64X;
+				INFOPLIST_FILE = "YHTrackingPointTool-ExampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wanwan.YHTrackingPointTool-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHTrackingPointTool-Example.app/YHTrackingPointTool-Example";
+			};
+			name = Debug;
+		};
+		656397B524B5ACDE00D2A915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98QB63E64X;
+				INFOPLIST_FILE = "YHTrackingPointTool-ExampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wanwan.YHTrackingPointTool-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHTrackingPointTool-Example.app/YHTrackingPointTool-Example";
+			};
+			name = Release;
+		};
+		656397B724B5ACDE00D2A915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98QB63E64X;
+				INFOPLIST_FILE = "YHTrackingPointTool-ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wanwan.YHTrackingPointTool-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "YHTrackingPointTool-Example";
+			};
+			name = Debug;
+		};
+		656397B824B5ACDE00D2A915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98QB63E64X;
+				INFOPLIST_FILE = "YHTrackingPointTool-ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wanwan.YHTrackingPointTool-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "YHTrackingPointTool-Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6563977924B5ACDD00D2A915 /* Build configuration list for PBXProject "YHTrackingPointTool-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656397AE24B5ACDE00D2A915 /* Debug */,
+				656397AF24B5ACDE00D2A915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656397B024B5ACDE00D2A915 /* Build configuration list for PBXNativeTarget "YHTrackingPointTool-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656397B124B5ACDE00D2A915 /* Debug */,
+				656397B224B5ACDE00D2A915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656397B324B5ACDE00D2A915 /* Build configuration list for PBXNativeTarget "YHTrackingPointTool-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656397B424B5ACDE00D2A915 /* Debug */,
+				656397B524B5ACDE00D2A915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		656397B624B5ACDE00D2A915 /* Build configuration list for PBXNativeTarget "YHTrackingPointTool-ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				656397B724B5ACDE00D2A915 /* Debug */,
+				656397B824B5ACDE00D2A915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6563978D24B5ACDD00D2A915 /* YHTrackingPointTool_Example.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6563978E24B5ACDD00D2A915 /* YHTrackingPointTool_Example.xcdatamodel */,
+			);
+			currentVersion = 6563978E24B5ACDD00D2A915 /* YHTrackingPointTool_Example.xcdatamodel */;
+			path = YHTrackingPointTool_Example.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6563977624B5ACDD00D2A915 /* Project object */;
+}
