@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
   s.name         = "YHTrackingPointTool"
   s.version      = "0.0.2"
-  s.summary      = "A short description of YHTrackingPointTool."
+  s.summary      = "UITableView & UICollection reload的时候 cellWillDisply 会走多次，不便于埋点，该工具是让cell只曝光一次，停留也只曝光一次"
 
   s.homepage     = "https://github.com/wanwandiligent/YHTrackingPointTool"
   s.license      = "MIT"
@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = "YHTrackingPointTool", "YHTrackingPointTool/**/*.{h,m}"
   s.exclude_files = "YHTrackingPointTool/Exclude"
-
 
   s.requires_arc = true
 
